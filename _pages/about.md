@@ -10,30 +10,29 @@ redirect_from:
 
 # About me
 
-I am **Yan Li**, currently an M.Sc. student in **Machine Learning** at the **Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)**, advised by **Prof. Kun Zhang**.  
+Hello! I am **Yan Li**, currently an M.Sc. student in **Machine Learning** at the **Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)**, advised by **Prof. Kun Zhang**. I mainly work with Guangyi Chen and Yunlong Deng in MBZUAI Causality Group.  
 
-From **July 2025 to December 2025**, I am a **visiting student** in the **Department of Philosophy at Carnegie Mellon University (CMU)**, working with **Prof. Peter Spirtes and Kun Zhang** and collaborating with the **CMU CLeaR Group** and the **MBZUAI Causality Group**.
+From **July 2025 to December 2025**, I am a **visiting student** in the **Department of Philosophy at Carnegie Mellon University (CMU)**, working with **Prof. Peter Spirtes and Kun Zhang** and collaborating with the **CMU CLeaR Group**.
 
-Previously, I obtained my **B.Eng. in Computer Science and Technology** from **Tsinghua University** in June 2024, where I worked at the **Research Institute of Human–Computer Interaction and Media Integration** with **Assoc. Prof. Chun Yu**, mainly on HCI and context-aware systems. I also interned at **Mian Bi Intelligent Technology Co., Ltd.**, working on data preparation for large language models.
+Previously, I obtained my **B.Eng. in Computer Science and Technology** from **Tsinghua University** in June 2024, where I worked at the **Research Institute of Human–Computer Interaction and Media Integration** with **Assoc. Prof. Chun Yu**, mainly on HCI and context-aware systems. 
 
-My current research focuses on the mathematical and causal foundations of machine learning, especially how to build robust, interpretable models that generalize across domains and over time.
+My current research focuses on the mathematical and causal foundations of machine learning, especially how to build robust, interpretable models.
 
 **Research interests**
 
-- Causal representation learning and causal discovery  
+- Causal representation learning=
 - Domain adaptation, domain generalization, and OOD robustness  
-- Self-refinement and evaluation of vision–language models and foundation models  
-- Time-series and continual representation learning  
-- Human–AI interaction (early work)
-
+- Multimodal model
+ 
 ---
 
 # News
-
-- *2025* — Our work **“A General Representation-Based Approach to Multi-Source Domain Adaptation”** is presented at **ICML 2025** as a **poster**.
-- *2025* — Our work **“CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations”** is accepted to **NeurIPS 2025** as a **spotlight**.
-- *2025* — Our work **“Towards Self-Refinement of Vision-Language Models”** is accepted to **NeurIPS 2025** as a **poster**.
-- *2025.07–2025.12* — Visiting student at **Carnegie Mellon University**, Department of Philosophy (advised by **Prof. Peter Spirtes**).
+- *2025.12* Attend NeurIPS 2025 in San Diego. I poster two paper in poster session.
+Welcome to talk with me!
+- *2025.9* — Our work **“CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations”** is accepted to **NeurIPS 2025** as a **spotlight**.
+- *2025.9* — Our work **“Towards Self-Refinement of Vision-Language Models”** is accepted to **NeurIPS 2025** as a **poster**.
+- *2025.4* — Our work **“A General Representation-Based Approach to Multi-Source Domain Adaptation”** is presented at **ICML 2025** as a **poster**.
+- *2025.07–2025.12* — Visiting student at **Carnegie Mellon University**, Department of Philosophy.
 - *2024.10* — Started **M.Sc. in Machine Learning** at **MBZUAI**, advised by **Prof. Kun Zhang**.
 - *2024.06* — Graduated from **Tsinghua University** with a **B.Eng. in Computer Science and Technology**.
 - *2023.06–2023.07* — Research intern at **Mian Bi Intelligent Technology Co., Ltd.**, working on pre-training data preparation for large language models.
@@ -46,9 +45,13 @@ My current research focuses on the mathematical and causal foundations of machin
 
 (*Equal contribution is indicated by `*` after author names.*)
 
-- **A General Representation-Based Approach to Multi-Source Domain Adaptation.**  
-  *Ignavier Ng*, **Yan Li***, Zijian Li, Yujia Zheng, Guangyi Chen, Kun Zhang.  
-  *ICML 2025 (poster).*  
+- **Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation.**  
+  **Yan Li**, Yunlong Deng, Zijian Li, Zeyu Tang, Anpeng Wu, Kun Zhang, Guangyi Chen.  
+  *Under review.*  
+
+- **Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens.**  
+  Yunlong Deng, Boyang Sun, **Yan Li**, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.  
+  *Under review.*  
 
 - **CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations.**  
   Guangyi Chen*, Yunlong Deng*, Peiyuan Zhu*, **Yan Li***, Yifan Shen, Zijian Li, Kun Zhang.  
@@ -58,17 +61,12 @@ My current research focuses on the mathematical and causal foundations of machin
   Yunlong Deng, Guangyi Chen, Tianpei Gu, Lingjing Kong, **Yan Li**, Zeyu Tang, Kun Zhang.  
   *NeurIPS 2025 (poster).*  
 
-- **Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation.**  
-  **Yan Li**, Yunlong Deng, Zijian Li, Zeyu Tang, Anpeng Wu, Kun Zhang, Guangyi Chen.  
-  *Under review.*  
-
-- **Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens.**  
-  Yunlong Deng, Boyang Sun, **Yan Li**, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.  
-  *Under review.*  
+- **A General Representation-Based Approach to Multi-Source Domain Adaptation.**  
+  *Ignavier Ng**, **Yan Li***, Zijian Li, Yujia Zheng, Guangyi Chen, Kun Zhang.  
+  *ICML 2025 (poster).*  
 
 - **Efficient and High-Quality Rendering with 3D Gaussian Prototypes.**  
   Zhengqing Gao, Dongting Hu, Jia-Wang Bian, Huan Fu, **Yan Li**, Tongliang Liu, Mingming Gong, Kun Zhang.  
-  *Manuscript.*  
 
 - **Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery.**  
   Zhaoheng Li, Chun Yu, **Yan Li**, Yuanchun Shi.  
@@ -148,7 +146,7 @@ Representative work and projects:
 
 - **Carnegie Mellon University (CMU), Department of Philosophy** — *Jul. 2025 – Dec. 2025*  
   Visiting student  
-  **Visiting tutor:** Prof. Peter Spirtes  
+  **Visiting tutor:** Prof. Peter Spirtes and Prof. Kun Zhang
 
 - **Tsinghua University** — *Sept. 2020 – Jun. 2024*  
   B.Eng. in **Computer Science and Technology**
@@ -173,6 +171,6 @@ Representative work and projects:
 
 # Contact
 
-- **Email:** Yan.Li@mbzuai.ac.ae  
-- **Other emails:** lyan012010@gmail.com; yanli3@andrew.cmu.edu  
-- **Tel:** +971-585386809; +86-18810618278  
+- **Email:** lyan012010@gmail.com   
+- **Other emails:** Yan.Li@mbzuai.ac.ae; yanli3@andrew.cmu.edu  
+ 
