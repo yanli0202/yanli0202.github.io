@@ -1,58 +1,178 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Yan Li (李岩)"
+excerpt: "MSc student in Machine Learning at MBZUAI, focusing on causal representation learning and domain adaptation."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+# About me
 
-<span class='anchor' id='about-me'></span>
+I am **Yan Li**, currently an M.Sc. student in **Machine Learning** at the **Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)**, advised by **Prof. Kun Zhang**.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+From **July 2025 to December 2025**, I am a **visiting student** in the **Department of Philosophy at Carnegie Mellon University (CMU)**, working with **Prof. Peter Spirtes and Kun Zhang** and collaborating with the **CMU CLeaR Group** and the **MBZUAI Causality Group**.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Previously, I obtained my **B.Eng. in Computer Science and Technology** from **Tsinghua University** in June 2024, where I worked at the **Research Institute of Human–Computer Interaction and Media Integration** with **Assoc. Prof. Chun Yu**, mainly on HCI and context-aware systems. I also interned at **Mian Bi Intelligent Technology Co., Ltd.**, working on data preparation for large language models.
 
+My current research focuses on the mathematical and causal foundations of machine learning, especially how to build robust, interpretable models that generalize across domains and over time.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Research interests**
 
-# 📝 Publications 
+- Causal representation learning and causal discovery  
+- Domain adaptation, domain generalization, and OOD robustness  
+- Self-refinement and evaluation of vision–language models and foundation models  
+- Time-series and continual representation learning  
+- Human–AI interaction (early work)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+---
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# News
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- *2025* — Our work **“A General Representation-Based Approach to Multi-Source Domain Adaptation”** is presented at **ICML 2025** as a **poster**.
+- *2025* — Our work **“CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations”** is accepted to **NeurIPS 2025** as a **spotlight**.
+- *2025* — Our work **“Towards Self-Refinement of Vision-Language Models”** is accepted to **NeurIPS 2025** as a **poster**.
+- *2025.07–2025.12* — Visiting student at **Carnegie Mellon University**, Department of Philosophy (advised by **Prof. Peter Spirtes**).
+- *2024.10* — Started **M.Sc. in Machine Learning** at **MBZUAI**, advised by **Prof. Kun Zhang**.
+- *2024.06* — Graduated from **Tsinghua University** with a **B.Eng. in Computer Science and Technology**.
+- *2023.06–2023.07* — Research intern at **Mian Bi Intelligent Technology Co., Ltd.**, working on pre-training data preparation for large language models.
+- *2022* — Won **Third Prize** in the **40th Challenge Cup of Tsinghua University**.
+- *2020* — Awarded **Second-Class Scholarship for Freshmen of Tsinghua University**.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+---
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+# Publications
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+(*Equal contribution is indicated by `*` after author names.*)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **A General Representation-Based Approach to Multi-Source Domain Adaptation.**  
+  *Ignavier Ng*, **Yan Li***, Zijian Li, Yujia Zheng, Guangyi Chen, Kun Zhang.  
+  *ICML 2025 (poster).*  
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- **CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations.**  
+  Guangyi Chen*, Yunlong Deng*, Peiyuan Zhu*, **Yan Li***, Yifan Shen, Zijian Li, Kun Zhang.  
+  *NeurIPS 2025 (spotlight).*  
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- **Towards Self-Refinement of Vision-Language Models.**  
+  Yunlong Deng, Guangyi Chen, Tianpei Gu, Lingjing Kong, **Yan Li**, Zeyu Tang, Kun Zhang.  
+  *NeurIPS 2025 (poster).*  
+
+- **Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation.**  
+  **Yan Li**, Yunlong Deng, Zijian Li, Zeyu Tang, Anpeng Wu, Kun Zhang, Guangyi Chen.  
+  *Under review.*  
+
+- **Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens.**  
+  Yunlong Deng, Boyang Sun, **Yan Li**, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.  
+  *Under review.*  
+
+- **Efficient and High-Quality Rendering with 3D Gaussian Prototypes.**  
+  Zhengqing Gao, Dongting Hu, Jia-Wang Bian, Huan Fu, **Yan Li**, Tongliang Liu, Mingming Gong, Kun Zhang.  
+  *Manuscript.*  
+
+- **Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery.**  
+  Zhaoheng Li, Chun Yu, **Yan Li**, Yuanchun Shi.  
+  Work from my undergraduate stage on human–computer interaction and context-aware area discovery.
+
+---
+
+# Research experience
+
+### CMU CLeaR Group & MBZUAI Causality Group  
+**Advisors:** Prof. Kun Zhang, Prof. Peter Spirtes  
+
+**Evaluating causal representation learning methods** — *Jul. 2025 – present*  
+- Build on **CausalVerse** to systematically evaluate different causal representation learning (CRL) methods.  
+- Observe that some methods achieve extremely high R² scores, and test principled properties such as minimality of interventions or changes.  
+- Plan to provide a comprehensive benchmark of method performance (on both images and videos), and to derive new methods and principles from empirical observations. For example, we find that for an iMSDA-like method, under appropriate hyperparameters, **smaller variation dimension** can sometimes lead to better performance.
+
+**Continuous learning with temporal data** — *Oct. 2025 – present*  
+- Study continuous learning for time series representations, inspired by how humans gradually learn hierarchical latent variables.  
+- Explore models that first learn high-level latent structure and then refine lower-level factors, aiming to better adapt and adjust modules over time.  
+- Participate in project discussions, simulations, and follow-up experiments.
+
+---
+
+### Causality Group, MBZUAI  
+
+**Causal representation learning benchmark (CausalVerse)** — *Feb. 2025 – Jun. 2025*  
+- Developed a new benchmark for **causal representation learning** using high-fidelity simulated visual data that provides both realistic visual complexity and access to ground-truth causal generating processes.  
+- Dataset includes ~200k images and ~3M video frames across 24 sub-scenes in four domains: static image generation, dynamic physical simulations, robotic manipulation, and traffic analysis, covering static/dynamic settings, simple/complex structures, and single/multi-agent interactions.  
+- Responsible for static image generation of physical processes, implementing and testing image-related baselines, and contributing to paper writing.
+
+**Framework to use data bias in domain adaptation** — *Jul. 2024 – May 2025*  
+- Study domain adaptation beyond purely invariant representations, proposing a framework that **strategically leverages bias** to complement invariants and achieve more robust adaptation to new domains.  
+- Use domain biases to re-weight experts trained on source domains, and show that invariants can also help identify beneficial bias information.  
+- Responsible for algorithm design, theoretical analysis, implementation, and paper writing.
+
+**Universal domain adaptation** — *Nov. 2024 – Jan. 2025*  
+- Proposed a general framework that learns **compact latent representations** capturing task-relevant distribution shifts, addressing what should be learned and transferred in domain adaptation.  
+- Developed a practical, non-parametric approach that can handle different types of distribution shifts in a unified setting.  
+- Participated in theoretical discussions and development, and was responsible for experiments and writing.
+
+**Self-refinement of vision–language models (VLMs)** — *Jul. 2024 – Nov. 2024*  
+- Validated that VLMs possess inherent **self-refinement** capabilities, enabling them to generate high-quality supervised data without external labels and to learn autonomously.  
+- Involved in theoretical analysis and paper writing.
+
+---
+
+### Research Institute of Human–Computer Interaction and Media Integration, Tsinghua University  
+
+**Research advisor:** Assoc. Prof. Chun Yu — *Oct. 2021 – Oct. 2023*  
+
+During my undergraduate years, I focused on **human–computer interaction (HCI)**, aiming to better connect humans and machines. After working on several HCI projects and completing coursework for a statistics minor (out of personal interest), I became more interested in the mathematical mechanisms of AI and shifted my focus toward machine learning and causality.
+
+Representative work and projects:  
+- **Design and Development of a Campus App – THUPat**  
+  - Designed and developed a campus mobile application, which won the **Third Prize** in the **40th Challenge Cup of Tsinghua University**.  
+- **User-Centric Approach to Context-Aware Area Discovery**  
+  - Participated in designing user experiments, validating the proposed method, and paper writing, leading to the publication **“Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery.”**
+
+---
+
+### Industry experience
+
+**Mian Bi Intelligent Technology Co., Ltd.** — *Jun. 2023 – Jul. 2023*  
+**Supervisor:** Jie Cai, Algorithm Engineer  
+
+- Participated in **data preparation for pre-training large language models**, including data cleaning algorithms and large-scale batch cleaning.  
+- Joined discussions on classical text LLMs, data pipelines, and preliminary design.
+
+---
+
+# Educations
+
+- **Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)** — *Oct. 2024 – Jun. 2026*  
+  M.Sc. in **Machine Learning**  
+  **Supervisor:** Prof. Kun Zhang  
+
+- **Carnegie Mellon University (CMU), Department of Philosophy** — *Jul. 2025 – Dec. 2025*  
+  Visiting student  
+  **Visiting tutor:** Prof. Peter Spirtes  
+
+- **Tsinghua University** — *Sept. 2020 – Jun. 2024*  
+  B.Eng. in **Computer Science and Technology**
+
+---
+
+# Honors and Awards
+
+- **MBZUAI Conference Travel Scholarship**, 2025  
+- **Tsinghua University Academic Progress Scholarship**, 2023  
+- **Social Practice Excellence Scholarship of Tsinghua University**, 2022  
+- **Third Prize**, 40th Challenge Cup of Tsinghua University, 2022  
+- **Second-Class Scholarship for Freshmen**, Tsinghua University, 2020  
+
+---
+
+# Service
+
+- **Reviewer**, ICLR
+
+---
+
+# Contact
+
+- **Email:** Yan.Li@mbzuai.ac.ae  
+- **Other emails:** lyan012010@gmail.com; yanli3@andrew.cmu.edu  
+- **Tel:** +971-585386809; +86-18810618278  
