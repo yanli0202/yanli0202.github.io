@@ -20,7 +20,7 @@ My current research focuses on the mathematical and causal foundations of machin
 
 **Research interests**
 
-- Causal representation learning=
+- Causal representation learning
 - Domain adaptation, domain generalization, and OOD robustness  
 - Multimodal model
  
@@ -171,6 +171,7 @@ Representative work and projects:
 
 # Contact
 
-- **Email:** lyan012010@gmail.com   
-- **Other emails:** Yan.Li@mbzuai.ac.ae; yanli3@andrew.cmu.edu  
+- **Email:** lyan012010 (at) gmail (dot) com
+   
+ 
  

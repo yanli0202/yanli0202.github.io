@@ -1,6 +1,6 @@
 
 <h1 align="center">
-AcadHomepage
+
 </h1>
 
 <div align="center">
@@ -11,7 +11,7 @@ AcadHomepage
 [![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
 </div>
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+<p align="center">/p>
 
 <p align="center">
     <br>
