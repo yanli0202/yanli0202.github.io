@@ -58,7 +58,7 @@ building robust and interpretable models.
 <!-- For each paper you can later replace the “Poster: _to be uploaded_” line with a real link, e.g. `/files/posters/icml2025_msda.pdf`.* -->
 
 - [Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation](https://arxiv.org/abs/2507.17001)  
-  Yan Li, Guangyi Chen, Yunlong Deng, Zijian Li, Zeyu Tang, Anpeng Wu, Kun Zhang.  
+Yan Li, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.  
 
 
 - [Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens](https://arxiv.org/abs/2510.08222)  
