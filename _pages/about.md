@@ -89,7 +89,7 @@ Yan Li, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.
 
 ---
 
-## Research experience
+<!-- ## Research experience
 
 ### CMU CLeaR Group & MBZUAI Causality Group  
 **Advisors:** Kun Zhang, Peter Spirtes  
@@ -143,7 +143,7 @@ Representative work and projects:
 - User-centric context-aware area discovery  
   - Participated in designing user experiments, validating the method, and writing the paper “Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery.”
 
----
+--- -->
 
 ## Industry experience
 
