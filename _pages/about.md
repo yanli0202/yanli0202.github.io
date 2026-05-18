@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yan Li (李岩)"
-excerpt: "MSc in Machine Learning at MBZUAI · causal representation learning · domain adaptation · multimodal models"
+excerpt: "· causal representation learning · domain adaptation · multimodal models"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,17 +10,18 @@ redirect_from:
 
 ## About
 
-Hello! I am **Yan Li (李岩)**, an M.Sc. student in Machine Learning at the
+Hello! I am **Yan Li (李岩)**, an incoming student to NTU.
+
+Previously, I obtained master degree in Machine Learning at the
 [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/),
 advised by [Kun Zhang](https://mbzuai.ac.ae/study/faculty/kun-zhang/).  
 I mainly work with [Guangyi Chen](https://chengy12.github.io/) and Yunlong Deng in the MBZUAI Causality Group.
 
-From **July 2025 to December 2025**, I will be a visiting student in the Department of Philosophy at
+From July 2025 to December 2025, I was a visiting student in the Department of Philosophy at
 [Carnegie Mellon University (CMU)](https://www.cmu.edu/), working with
 [Peter Spirtes](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html) and [Kun Zhang](https://www.cmu.edu/dietrich/philosophy/people/faculty/zhang.html),
 and collaborating with the [CMU CLeaR Group](https://www.cmu.edu/dietrich/causality/).
-
-Previously, I obtained a B.Eng. in Computer Science and Technology from
+I obtained a B.Eng. in Computer Science and Technology from
 [Tsinghua University](https://www.tsinghua.edu.cn/en/) in June 2024, where I worked at the
 Research Institute of Human–Computer Interaction and Media Integration with Chun Yu, mainly on HCI
 and context-aware systems.
@@ -37,9 +38,8 @@ building robust and interpretable models.
 ---
 
 ## News
-
-- *2025.12* — I will attend **NeurIPS 2025** in San Diego and present two posters.  
-  Feel free to talk to me at the poster sessions.
+- *2026.01* - "Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens" accepted to **ICLR 2026** (poster). 
+- *2025.12* — I will attend **NeurIPS 2025** in San Diego and present two posters.  Feel free to talk to me at the poster sessions.
 - *2025.09* — “CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations” accepted to **NeurIPS 2025** (spotlight).
 - *2025.09* — “Towards Self-Refinement of Vision-Language Models with Triangular Consistency” accepted to **NeurIPS 2025** (poster).
 - *2025.04* — “A General Representation-Based Approach to Multi-Source Domain Adaptation” presented at **ICML 2025** (poster).
@@ -56,6 +56,12 @@ building robust and interpretable models.
 
 *Equal contribution is indicated by `*` after author names.  
 <!-- For each paper you can later replace the “Poster: _to be uploaded_” line with a real link, e.g. `/files/posters/icml2025_msda.pdf`.* -->
+
+- [Multimodal LLMs under Pairwise Modalities]()
+  Yan Li, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen.
+
+- [Multimodal LLMs under Pairwise Modalities]()
+  Yan Li\*, Yunlong Deng\*, Yuewen Sun, Gongxu Luo, Kun Zhang, Guangyi Chen.
 
 - [Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation](https://arxiv.org/abs/2507.17001)  
 Yan Li, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.  
@@ -179,7 +185,7 @@ Supervisor: Jie Cai, Algorithm Engineer
 
 ## Service
 
-- Reviewer, ICLR  
+- Reviewer: ICLR, ICML, NeurIPS  
 
 ---
 
