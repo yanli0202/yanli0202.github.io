@@ -56,7 +56,7 @@ building robust and interpretable models.
 *Equal contribution is indicated by `*` after author names.  
 <!-- For each paper you can later replace the “Poster: _to be uploaded_” line with a real link, e.g. `/files/posters/icml2025_msda.pdf`.* -->
 
-- [Multimodal LLMs under Pairwise Modalities]()
+- [A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation]()
   Yan Li, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen.
 
 - [Multimodal LLMs under Pairwise Modalities]()
