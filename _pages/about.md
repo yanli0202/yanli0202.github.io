@@ -10,16 +10,15 @@ redirect_from:
 
 ## About
 
-Hello! I am **Yan Li (李岩)**, an incoming student to NTU.
+Hello! I am **Yan Li (李岩)**, an incoming phd student with Prof. [Sean Du](https://d12306.github.io/) to NTU.
 
 Previously, I obtained master degree in Machine Learning at the
 [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/),
-advised by [Kun Zhang](https://mbzuai.ac.ae/study/faculty/kun-zhang/).  
-I mainly work with [Guangyi Chen](https://chengy12.github.io/) and Yunlong Deng in the MBZUAI Causality Group.
+advised by Prof. [Kun Zhang](https://mbzuai.ac.ae/study/faculty/kun-zhang/). I work closely with [Guangyi Chen](https://chengy12.github.io/) and [Yunlong Deng](https://dengyl20.github.io/) in the MBZUAI Causality Group.
 
 From July 2025 to December 2025, I was a visiting student in the Department of Philosophy at
 [Carnegie Mellon University (CMU)](https://www.cmu.edu/), working with
-[Peter Spirtes](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html) and [Kun Zhang](https://www.cmu.edu/dietrich/philosophy/people/faculty/zhang.html),
+Prof. [Peter Spirtes](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html) and Prof. [Kun Zhang](https://www.cmu.edu/dietrich/philosophy/people/faculty/zhang.html),
 and collaborating with the [CMU CLeaR Group](https://www.cmu.edu/dietrich/causality/).
 I obtained a B.Eng. in Computer Science and Technology from
 [Tsinghua University](https://www.tsinghua.edu.cn/en/) in June 2024, where I worked at the
