@@ -74,7 +74,7 @@ Welcome to talk with me!
 
 ---
 
-# Research experience
+<!-- # Research experience
 
 ### CMU CLeaR Group & MBZUAI Causality Group  
 **Advisors:** Prof. Kun Zhang, Prof. Peter Spirtes  
@@ -136,7 +136,7 @@ Representative work and projects:
 - Participated in **data preparation for pre-training large language models**, including data cleaning algorithms and large-scale batch cleaning.  
 - Joined discussions on classical text LLMs, data pipelines, and preliminary design.
 
----
+--- -->
 
 # Educations
 
