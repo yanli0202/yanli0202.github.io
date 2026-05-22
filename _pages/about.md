@@ -59,16 +59,32 @@ building robust and interpretable models.
 
 <table>
 <tr>
-<td width="32%">
-<img src="/images/benchmark_overall.pdf" alt="CausalVerse" width="260">
+<td width="32%" style="vertical-align: middle;">
+  <img src="{{ '/images/benchmark_overall.jpg' | relative_url }}" 
+       alt="CausalVerse" 
+       style="width: 260px; max-width: 100%; border-radius: 6px;">
 </td>
-<td width="68%">
 
-[**CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations**](https://arxiv.org/abs/2510.14049)  
-Guangyi Chen\*, Yunlong Deng\*, Peiyuan Zhu\*, **Yan Li**\*, Yifan Shen, Zijian Li, Kun Zhang.  
-_NeurIPS 2025 Datasets and Benchmarks Track, Spotlight._  
+<td width="68%" style="vertical-align: middle; padding-left: 18px;">
 
-[[Paper](https://arxiv.org/abs/2510.14049)] [[Project Page](https://causal-verse.github.io/)]
+  <p>
+    <a href="https://arxiv.org/abs/2510.14049">
+      <strong>CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations</strong>
+    </a>
+  </p>
+
+  <p>
+    Guangyi Chen*, Yunlong Deng*, Peiyuan Zhu*, <strong>Yan Li*</strong>, Yifan Shen, Zijian Li, Kun Zhang.
+  </p>
+
+  <p>
+    <em>NeurIPS 2025 Datasets and Benchmarks Track, Spotlight.</em>
+  </p>
+
+  <p>
+    <a href="https://arxiv.org/abs/2510.14049">[Paper]</a>
+    <a href="https://causal-verse.github.io/">[Project Page]</a>
+  </p>
 
 </td>
 </tr>
