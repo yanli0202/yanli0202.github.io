@@ -56,10 +56,10 @@ building robust and interpretable models.
 *Equal contribution is indicated by `*` after author names.  
 <!-- For each paper you can later replace the “Poster: _to be uploaded_” line with a real link, e.g. `/files/posters/icml2025_msda.pdf`.* -->
 
-- [A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation]()
+- [A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation](https://arxiv.org/abs/2605.21058)
   Yan Li, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen.
 
-- [Multimodal LLMs under Pairwise Modalities]()
+- [Multimodal LLMs under Pairwise Modalities](https://arxiv.org/abs/2605.21059)
   Yan Li\*, Yunlong Deng\*, Yuewen Sun, Gongxu Luo, Kun Zhang, Guangyi Chen.
 
 - [Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation](https://arxiv.org/abs/2507.17001)  
@@ -94,7 +94,52 @@ Yan Li, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.
 
 ---
 
-<!-- ## Research experience
+
+## Industry experience
+
+**Mian Bi Intelligent Technology Co., Ltd.** · *Jun. 2023 – Jul. 2023*  
+Supervisor: Jie Cai, Algorithm Engineer  
+
+- Worked on data preparation for pre-training large language models, including data-cleaning algorithms and large-scale batch cleaning.  
+- Participated in discussions on classical text LLMs, data pipelines, and preliminary design.
+
+---
+
+## Education
+
+- **M.Sc. in Machine Learning**, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) · *Oct. 2024 – Jun. 2026*  
+  Supervisor: Kun Zhang  
+
+- **Visiting student**, Department of Philosophy, Carnegie Mellon University (CMU) · *Jul. 2025 – Dec. 2025*  
+  Visiting tutors: Peter Spirtes, Kun Zhang  
+
+- **B.Eng. in Computer Science and Technology**, Tsinghua University · *Sept. 2020 – Jun. 2024*
+
+---
+
+## Honors and awards
+
+- MBZUAI Conference Travel Scholarship, 2025  
+- Tsinghua University Academic Progress Scholarship, 2023  
+- Social Practice Excellence Scholarship of Tsinghua University, 2022  
+- Third Prize, 40th Challenge Cup of Tsinghua University, 2022  
+- Second-Class Scholarship for Freshmen, Tsinghua University, 2020  
+
+---
+
+## Service
+
+- Reviewer: ICLR, ICML, NeurIPS  
+
+---
+
+## Contact
+
+- Email: lyan012010 (at) gmail (dot) com
+
+   
+ 
+ <!-- ## Research experience
 
 ### CMU CLeaR Group & MBZUAI Causality Group  
 **Advisors:** Kun Zhang, Peter Spirtes  
@@ -149,49 +194,3 @@ Representative work and projects:
   - Participated in designing user experiments, validating the method, and writing the paper “Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery.”
 
 --- -->
-
-## Industry experience
-
-**Mian Bi Intelligent Technology Co., Ltd.** · *Jun. 2023 – Jul. 2023*  
-Supervisor: Jie Cai, Algorithm Engineer  
-
-- Worked on data preparation for pre-training large language models, including data-cleaning algorithms and large-scale batch cleaning.  
-- Participated in discussions on classical text LLMs, data pipelines, and preliminary design.
-
----
-
-## Education
-
-- **M.Sc. in Machine Learning**, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) · *Oct. 2024 – Jun. 2026*  
-  Supervisor: Kun Zhang  
-
-- **Visiting student**, Department of Philosophy, Carnegie Mellon University (CMU) · *Jul. 2025 – Dec. 2025*  
-  Visiting tutors: Peter Spirtes, Kun Zhang  
-
-- **B.Eng. in Computer Science and Technology**, Tsinghua University · *Sept. 2020 – Jun. 2024*
-
----
-
-## Honors and awards
-
-- MBZUAI Conference Travel Scholarship, 2025  
-- Tsinghua University Academic Progress Scholarship, 2023  
-- Social Practice Excellence Scholarship of Tsinghua University, 2022  
-- Third Prize, 40th Challenge Cup of Tsinghua University, 2022  
-- Second-Class Scholarship for Freshmen, Tsinghua University, 2020  
-
----
-
-## Service
-
-- Reviewer: ICLR, ICML, NeurIPS  
-
----
-
-## Contact
-
-- Email: lyan012010 (at) gmail (dot) com
-
-   
- 
- 
