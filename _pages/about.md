@@ -51,46 +51,41 @@ building robust and interpretable models.
 
 ---
 
-## Publications
+*Equal contribution is indicated by `*` after author names.*
 
-*Equal contribution is indicated by `*` after author names.  
-<!-- For each paper you can later replace the “Poster: _to be uploaded_” line with a real link, e.g. `/files/posters/icml2025_msda.pdf`.* -->
+<!-- For each paper, you can later replace the “Poster: _to be uploaded_” line with a real link, e.g., `/files/posters/icml2025_msda.pdf`. -->
 
-- [A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation](https://arxiv.org/abs/2605.21058)
-  Yan Li, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen.
+- [A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation](https://arxiv.org/abs/2605.21058)  
+  **Yan Li**, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen.
 
-- [Multimodal LLMs under Pairwise Modalities](https://arxiv.org/abs/2605.21059)
-  Yan Li\*, Yunlong Deng\*, Yuewen Sun, Gongxu Luo, Kun Zhang, Guangyi Chen.
+- [Multimodal LLMs under Pairwise Modalities](https://arxiv.org/abs/2605.21059)  
+  **Yan Li**\*, Yunlong Deng\*, Yuewen Sun, Gongxu Luo, Kun Zhang, Guangyi Chen.
 
-- [Should Bias Always be Eliminated? A Principled Framework to Use Data Bias for OOD Generation](https://arxiv.org/abs/2507.17001)  
-Yan Li, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.  
-
+- [Should Bias Always Be Eliminated? A Principled Framework to Use Data Bias for OOD Generation](https://arxiv.org/abs/2507.17001)  
+  **Yan Li**, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.
 
 - [Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens](https://arxiv.org/abs/2510.08222)  
-  Yunlong Deng, Boyang Sun, Yan Li, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.  
-
+  Yunlong Deng, Boyang Sun, **Yan Li**, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.
 
 - [CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations](https://arxiv.org/abs/2510.14049)  
-  Guangyi Chen\*, Yunlong Deng\*, Peiyuan Zhu\*, Yan Li\*, Yifan Shen, Zijian Li, Kun Zhang.  
-  _NeurIPS 2025 db, spotlight._  
-  [Welcome to vist our project Page!](https://causal-verse.github.io/)
-
+  Guangyi Chen\*, Yunlong Deng\*, Peiyuan Zhu\*, **Yan Li**\*, Yifan Shen, Zijian Li, Kun Zhang.  
+  _NeurIPS 2025 Datasets and Benchmarks Track, Spotlight._  
+  [Welcome to visit our project page!](https://causal-verse.github.io/)
 
 - [Towards Self-Refinement of Vision-Language Models with Triangular Consistency](https://arxiv.org/abs/2510.10487)  
-  Yunlong Deng, Guangyi Chen, Tianpei Gu, Lingjing Kong, Yan Li, Zeyu Tang, Kun Zhang.  
-  _NeurIPS 2025, poster._  
- 
-- [A General Representation-Based Approach to Multi-Source Domain Adaptation](https://proceedings.mlr.press/v267/ng25a.html)  
-  Ignavier Ng\*, Yan Li\*, Zijian Li, Yujia Zheng, Guangyi Chen, Kun Zhang.  
-  _ICML 2025, poster._  
+  Yunlong Deng, Guangyi Chen, Tianpei Gu, Lingjing Kong, **Yan Li**, Zeyu Tang, Kun Zhang.  
+  _NeurIPS 2025, Poster._
 
+- [A General Representation-Based Approach to Multi-Source Domain Adaptation](https://proceedings.mlr.press/v267/ng25a.html)  
+  Ignavier Ng\*, **Yan Li**\*, Zijian Li, Yujia Zheng, Guangyi Chen, Kun Zhang.  
+  _ICML 2025, Poster._
 
 - [ProtoGS: Efficient and High-Quality Rendering with 3D Gaussian Prototypes](https://arxiv.org/abs/2503.17486)  
-  Zhengqing Gao, Dongting Hu, Jia-Wang Bian, Huan Fu, Yan Li, Tongliang Liu, Mingming Gong, Kun Zhang.
+  Zhengqing Gao, Dongting Hu, Jia-Wang Bian, Huan Fu, **Yan Li**, Tongliang Liu, Mingming Gong, Kun Zhang.
 
 - Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery  
-  Zhaoheng Li, Chun Yu, Yan Li, Yuanchun Shi.  
-  Work from my undergraduate stage on human–computer interaction and context-aware area discovery.
+  Zhaoheng Li, Chun Yu, **Yan Li**, Yuanchun Shi.  
+  Undergraduate work on human–computer interaction and context-aware area discovery.
 
 ---
 
