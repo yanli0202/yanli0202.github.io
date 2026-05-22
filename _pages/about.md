@@ -51,9 +51,30 @@ building robust and interpretable models.
 
 ---
 
+## Publications
+
 *Equal contribution is indicated by `*` after author names.*
 
-<!-- For each paper, you can later replace the “Poster: _to be uploaded_” line with a real link, e.g., `/files/posters/icml2025_msda.pdf`. -->
+### Featured paper
+
+<table>
+<tr>
+<td width="32%">
+<img src="/images/benchmark_overall.pdf" alt="CausalVerse" width="260">
+</td>
+<td width="68%">
+
+[**CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations**](https://arxiv.org/abs/2510.14049)  
+Guangyi Chen\*, Yunlong Deng\*, Peiyuan Zhu\*, **Yan Li**\*, Yifan Shen, Zijian Li, Kun Zhang.  
+_NeurIPS 2025 Datasets and Benchmarks Track, Spotlight._  
+
+[[Paper](https://arxiv.org/abs/2510.14049)] [[Project Page](https://causal-verse.github.io/)]
+
+</td>
+</tr>
+</table>
+
+### Full papers
 
 - [A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation](https://arxiv.org/abs/2605.21058)  
   **Yan Li**, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen.
@@ -65,12 +86,8 @@ building robust and interpretable models.
   **Yan Li**, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen.
 
 - [Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens](https://arxiv.org/abs/2510.08222)  
-  Yunlong Deng, Boyang Sun, **Yan Li**, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.
-
-- [CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations](https://arxiv.org/abs/2510.14049)  
-  Guangyi Chen\*, Yunlong Deng\*, Peiyuan Zhu\*, **Yan Li**\*, Yifan Shen, Zijian Li, Kun Zhang.  
-  _NeurIPS 2025 Datasets and Benchmarks Track, Spotlight._  
-  [Welcome to visit our project page!](https://causal-verse.github.io/)
+  Yunlong Deng, Boyang Sun, **Yan Li**, Zeyu Tang, Lingjing Kong, Kun Zhang, Guangyi Chen.  
+  _ICLR 2026, Poster._
 
 - [Towards Self-Refinement of Vision-Language Models with Triangular Consistency](https://arxiv.org/abs/2510.10487)  
   Yunlong Deng, Guangyi Chen, Tianpei Gu, Lingjing Kong, **Yan Li**, Zeyu Tang, Kun Zhang.  
