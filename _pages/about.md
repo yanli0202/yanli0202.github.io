@@ -25,13 +25,20 @@ I obtained a B.Eng. in Computer Science and Technology from
 Research Institute of Human–Computer Interaction and Media Integration with Chun Yu, mainly on HCI
 and context-aware systems.
 
-Broadly, I am interested in the mathematical and causal foundations of machine learning, and in
-building robust and interpretable models.
+My research primarily focuses on representation learning, particularly representation learning for foundation models. My broader goal is to improve the reliability and robustness of large language models, for example by reducing hallucinations and enabling stronger generalization.
+
+I have published extensively on causal representation learning, with much of this work examining conventional adaptation problems through a causal perspective. My collaborators and I have also constructed relevant datasets and authored position papers that aim to clarify important research directions in this area.
+
+Since 2026, my research has increasingly shifted toward improving the capabilities of LLMs through the lens of representation learning. I developed MPM, a lossless approach for extending multimodal large language models with additional modalities. I am also collaborating with Prof. Sean Du on noise detection in LLMs, particularly in the reasoning trajectories produced by agents.
+
+Another major direction of my current work is improving the long-horizon capabilities of agents. Instead of treating context as a single flat sequence of tokens, we organize it into structured blocks. During generation, the model can emit dedicated editing tokens from its vocabulary to perform atomic operations on specific blocks, including deletion, rewriting, and exact restoration by block identifier.
+
 
 ### Research interests
 
-- Causal representation learning  
-- Domain adaptation, domain generalization, and out-of-distribution robustness  
+- representation learning 
+- reliability and robustness of LLMs
+- Adaptation  
 - Multimodal and vision–language models  
 
 ---
