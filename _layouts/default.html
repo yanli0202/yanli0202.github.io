@@ -1,33 +1,102 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     {% include head.html %}
-    {% include head/custom.html %}
   </head>
-
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.author.name | escape }} — Homepage">{{ site.author.name }}</a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+        </nav>
+        <details class="menu-disclosure">
+          <summary>Index <span class="menu-symbol" aria-hidden="true">+</span></summary>
+          <nav class="index-menu" aria-label="All sections">
+            {% for link in site.data.navigation.main %}
+            <a href="{{ link.url }}"><span aria-hidden="true">0{{ forloop.index }}</span>{{ link.title }}</a>
+            {% endfor %}
+          </nav>
+        </details>
+      </div>
+    </header>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% comment %}
+      The Markdown remains the only source of page copy. Wrap its rendered h2
+      sections and move the opening paragraph to the hero without rewriting it.
+      These are the heading/paragraph tags emitted by the configured Kramdown.
+    {% endcomment %}
+    {% assign chapters = content | split: '<h2 ' %}
+    {% assign about_chapter = chapters[1] %}
+    {% assign about_heading = about_chapter | split: '</h2>' | first %}
+    {% assign about_body = about_chapter | remove_first: about_heading | remove_first: '</h2>' %}
+    {% assign opening_paragraph = about_body | split: '</p>' | first | append: '</p>' %}
+    {% assign name_parts = site.author.name | split: ' (' %}
+    {% assign name_latin = name_parts | first %}
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-name">
+        <div class="orbital-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="planet"></div>
+          <span class="star star-one"></span><span class="star star-two"></span><span class="star star-three"></span>
+          <span class="star star-four"></span><span class="star star-five"></span><span class="star star-six"></span>
+          <span class="orbit-caption">representation learning</span>
         </div>
-      </article>
-    </div>
+        <div class="hero-copy">
+          <a class="eyebrow" href="#about">About</a>
+          <h1 id="hero-name">{{ name_latin }}{% if name_parts.size > 1 %}<span class="name-chinese">({{ name_parts[1] }}</span>{% endif %}</h1>
+          {% if chapters.size > 1 %}<div class="hero-intro" data-original-content>{{ opening_paragraph }}</div>{% endif %}
+          <div class="hero-links">
+            {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
+        </div>
+        <a class="hero-scroll" href="#about" aria-label="Read About"><span aria-hidden="true">↓</span></a>
+      </section>
 
-    {% include scripts.html %}
-
+      <div class="observatory-content">
+        {% if chapters.size > 1 %}
+          {{ chapters[0] }}
+          {% for chapter in chapters offset:1 %}
+            {% assign heading = chapter | split: '</h2>' | first %}
+            {% assign section_id = heading | split: '"' %}
+            {% assign section_id = section_id[1] %}
+            {% assign body = chapter | remove_first: heading | remove_first: '</h2>' %}
+            <section class="observatory-section section-{{ section_id }}" aria-labelledby="{{ section_id }}">
+              <div class="section-heading">
+                <span class="section-number" aria-hidden="true">0{{ forloop.index }}</span>
+                <div data-original-content><h2 {{ heading }}</h2></div>
+              </div>
+              {% if section_id == 'about' %}
+                {% assign body = body | remove_first: opening_paragraph %}
+                {% assign about_columns = body | split: '<h3 id="research-interests">' %}
+                <div class="about-layout">
+                  <div class="section-body about-prose" data-original-content>{{ about_columns[0] }}</div>
+                  <aside class="research-aside" aria-label="Profile and research interests">
+                    {% if site.author.avatar %}
+                    <figure class="portrait-frame"><img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="2819" height="2589" loading="lazy" decoding="async"></figure>
+                    {% endif %}
+                    {% if site.author.bio %}<p class="profile-bio">{{ site.author.bio }}</p>{% endif %}
+                    {% if about_columns.size > 1 %}<div class="interest-content" data-original-content><h3 id="research-interests">{{ about_columns[1] }}</div>{% endif %}
+                  </aside>
+                </div>
+              {% else %}
+                <div class="section-body" data-original-content>{{ body }}</div>
+              {% endif %}
+            </section>
+          {% endfor %}
+        {% else %}
+          <article class="section-body" data-original-content>{{ content }}</article>
+        {% endif %}
+      </div>
+    </main>
+    <footer class="site-footer">
+      <a class="wordmark" href="#main">{{ site.author.name }}</a>
+      <a href="#main" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+    <script src="{{ '/assets/js/observatory.js' | relative_url }}" defer></script>
+    {% if site.google_analytics_id %}{% include analytics.html %}{% endif %}
   </body>
 </html>

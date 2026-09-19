@@ -8,7 +8,8 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% assign display_title = page.title | default: site.title | default: site.author.name %}
+<title>{{ display_title | escape }} - Homepage</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -30,8 +31,8 @@
 {% endif %}
 
 <meta property="og:locale" content="en">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:site_name" content="{{ site.title | default: site.author.name | escape }}">
+<meta property="og:title" content="{{ display_title | escape }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">

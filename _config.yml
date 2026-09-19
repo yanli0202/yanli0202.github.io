@@ -80,6 +80,8 @@ include:
   - _pages
   - files
 exclude:
+  # Retain the historical source without generating a second homepage at /.
+  - _pages/ab.md
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
