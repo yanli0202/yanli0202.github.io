@@ -10,7 +10,7 @@ redirect_from:
 
 ## About
 
-Hello! I am **Yan Li (李岩)**, an incoming phd student with Prof. [Sean Du](https://d12306.github.io/) to NTU.
+Hello! I am **Yan Li (李岩)**, an Research Associate with Prof. [Sean Du](https://d12306.github.io/) to NTU.
 
 Previously, I obtained master degree in Machine Learning at the
 [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/),
