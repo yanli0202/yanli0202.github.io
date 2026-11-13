@@ -1,0 +1,79 @@
+# Publications shown on the homepage, rendered by _includes/publications.html.
+#
+# Order: entries marked `featured: true` are shown first as a highlighted card,
+# then every other entry in the order written here.
+#
+# Fields
+#   title     paper title
+#   authors   author list; "*" marks equal contribution; your name is bolded automatically
+#   venue     where it appeared, e.g. "ICLR 2026" or "Preprint, 2026"
+#   award     optional, e.g. "Spotlight" or "Oral"
+#   links     list of {name, url}; the first link is also used for the title
+#   image     optional thumbnail (shown for featured papers)
+#   note      optional one-line description
+#
+# Last checked against arXiv and OpenAlex on 2026-11-14 (Google Scholar was not reachable).
+
+- title: "CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations"
+  authors: "Guangyi Chen*, Yunlong Deng*, Peiyuan Zhu*, Yan Li*, Yifan Shen, Zijian Li, Kun Zhang"
+  venue: "NeurIPS 2025, Datasets and Benchmarks Track"
+  award: "Spotlight"
+  featured: true
+  image: /images/benchmark_overall.jpg
+  links:
+    - { name: "Paper", url: "https://arxiv.org/abs/2510.14049" }
+    - { name: "Project page", url: "https://causal-verse.github.io/" }
+
+- title: "Editing as Language: Teaching LLM Agents a Grammar for Native Context Editing"
+  authors: "Yunlong Deng*, Yan Li*, Xing Hu, Yida Zhu, Sean Du, Weiyang Liu, Guangyi Chen"
+  venue: "Preprint, 2026"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2610.25550" }
+    - { name: "Project page", url: "https://dengyl20.github.io/native-context-editing/" }
+    - { name: "Code", url: "https://github.com/dengyl20/native-context-editing" }
+
+- title: "A Dialogue between Causal and Traditional Representation Learning: Toward Mutual Benefits in a Unified Formulation"
+  authors: "Yan Li, Yuewen Sun, Shaoan Xie, Gongxu Luo, Yunlong Deng, Kun Zhang, Guangyi Chen"
+  venue: "Preprint, 2026"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2605.21058" }
+
+- title: "Multimodal LLMs under Pairwise Modalities"
+  authors: "Yan Li*, Yunlong Deng*, Yuewen Sun, Gongxu Luo, Kun Zhang, Guangyi Chen"
+  venue: "Preprint, 2026"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2605.21059" }
+
+- title: "Should Bias be Eliminated? A General Framework to Use Bias for OOD Generalization"
+  authors: "Yan Li, Yunlong Deng, Zijian Li, Anpeng Wu, Zeyu Tang, Kun Zhang, Guangyi Chen"
+  venue: "Preprint, 2025"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2507.17001" }
+
+- title: "Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens"
+  authors: "Yunlong Deng, Boyang Sun, Yan Li, Lingjing Kong, Zeyu Tang, Kun Zhang, Guangyi Chen"
+  venue: "ICLR 2026"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2510.08222" }
+
+- title: "Towards Self-Refinement of Vision-Language Models with Triangular Consistency"
+  authors: "Yunlong Deng, Guangyi Chen, Tianpei Gu, Lingjing Kong, Yan Li, Zeyu Tang, Kun Zhang"
+  venue: "NeurIPS 2025"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2510.10487" }
+
+- title: "A General Representation-Based Approach to Multi-Source Domain Adaptation"
+  authors: "Ignavier Ng*, Yan Li*, Zijian Li, Yujia Zheng, Guangyi Chen, Kun Zhang"
+  venue: "ICML 2025"
+  links:
+    - { name: "PMLR", url: "https://proceedings.mlr.press/v267/ng25a.html" }
+
+- title: "ProtoGS: Efficient and High-Quality Rendering with 3D Gaussian Prototypes"
+  authors: "Zhengqing Gao, Dongting Hu, Jia-Wang Bian, Huan Fu, Yan Li, Tongliang Liu, Mingming Gong, Kun Zhang"
+  venue: "Preprint, 2025"
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2503.17486" }
+
+- title: "Revealing Personalized Positions in Indoor Spaces: A User-Centric Approach to Context-Aware Area Discovery"
+  authors: "Zhaoheng Li, Chun Yu, Yan Li, Yuanchun Shi"
+  note: "Undergraduate work on human–computer interaction and context-aware area discovery."

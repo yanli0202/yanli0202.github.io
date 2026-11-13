@@ -1,0 +1,36 @@
+{% comment %}
+  Renders _data/publications.yml. Featured entries come first as cards,
+  followed by the remaining entries in file order.
+{% endcomment %}
+{% assign me = site.author.name | split: ' (' | first %}
+{% assign me_html = '<strong class="me">' | append: me | append: '</strong>' %}
+{% assign featured = site.data.publications | where: "featured", true %}
+{% assign others = site.data.publications | where_exp: "pub", "pub.featured != true" %}
+{% assign ordered = featured | concat: others %}
+<ol class="pubs">
+{% for pub in ordered %}
+  {% assign main_link = pub.links | first %}
+  <li class="pub{% if pub.featured %} pub--featured{% endif %}">
+    {% if pub.featured and pub.image %}
+    <a class="pub-thumb" href="{{ main_link.url | default: '#' }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ pub.image | relative_url }}" alt="" width="1370" height="1372" loading="lazy" decoding="async">
+    </a>
+    {% endif %}
+    <div class="pub-body">
+      {% if pub.featured %}<span class="pub-flag">Featured</span>{% endif %}
+      {% if main_link %}
+      <a class="pub-title" href="{{ main_link.url }}">{{ pub.title }}</a>
+      {% else %}
+      <span class="pub-title">{{ pub.title }}</span>
+      {% endif %}
+      <div class="pub-authors">{{ pub.authors | replace: me, me_html }}</div>
+      <div class="pub-meta">
+        {% if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>{% endif %}
+        {% if pub.award %}<span class="pub-award">{{ pub.award }}</span>{% endif %}
+        {% for link in pub.links %}<a class="pub-link" href="{{ link.url }}">{{ link.name }}</a>{% endfor %}
+      </div>
+      {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ol>
